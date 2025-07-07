@@ -14,31 +14,6 @@
 
 ---
 
-## 📸 Screenshots
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="pictures/login_preview.png" alt="Login Screen" width="300px">
-        <br><b>Login Screen</b>
-      </td>
-      <td align="center">
-        <img src="pictures/chat_preview.png" alt="Chat Interface" width="300px">
-        <br><b>Chat Interface</b>
-      </td>
-      <td align="center">
-        <img src="pictures/profile_preview.png" alt="Profile Settings" width="300px">
-        <br><b>Profile Settings</b>
-      </td>
-    </tr>
-  </table>
-</div>
-
-> *Note: Screenshots will be added soon*
-
----
-
 ## ✨ Key Features
 
 ### 💬 **Communication**
@@ -86,7 +61,7 @@
       <br>Authentication
     </td>
     <td align="center">
-      <img src="https://via.placeholder.com/60x60/007396/FFFFFF?text=Swing" alt="Swing" width="60" height="60"/>
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java Swing" width="60" height="60"/>
       <br><b>Java Swing</b>
       <br>GUI Framework
     </td>
