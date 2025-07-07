@@ -52,11 +52,14 @@ public class FirebaseService {
      */
     private FirebaseService() throws IOException {
         // Path to your service account key JSON file
-        FileInputStream serviceAccount = new FileInputStream("resources/vibeapp-a2129-firebase-adminsdk-fbsvc-4e7f2a80b1.json");
+        String configPath = System.getProperty("firebase.config.path", "resources/firebase-config.json");
+        String databaseUrl = System.getProperty("firebase.database.url", "https://your-project-id-default-rtdb.firebaseio.com");
+        
+        FileInputStream serviceAccount = new FileInputStream(configPath);
 
         FirebaseOptions options = FirebaseOptions.builder()
                 .setCredentials(GoogleCredentials.fromStream(serviceAccount))
-                .setDatabaseUrl("https://vibeapp-a2129-default-rtdb.firebaseio.com")
+                .setDatabaseUrl(databaseUrl)
                 .build();
 
         // Initialize only if not already initialized

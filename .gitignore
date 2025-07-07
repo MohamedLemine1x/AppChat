@@ -60,5 +60,10 @@ shared_images/
 # Ignore local images
 pictures/
 
-# Firebase credentials
+# Firebase credentials and sensitive configuration
 **/google_firebase_admin.xml
+firebase-config.json
+**/firebase-*-adminsdk-*.json
+*.json
+!firebase-config.example.json
+user_profiles.properties
