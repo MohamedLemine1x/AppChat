@@ -1,0 +1,64 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# Ignore Java class files
+*.class
+
+# Ignore log files
+*.log
+
+# Ignore properties with sensitive data
+remember_me.properties
+
+# Ignore IDE files
+*.iml
+.idea/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore libraries
+lib/
+
+# Ignore build output
+bin/
+
+# Ignore resource files with secrets
+resources/
+
+# Ignore shared images
+shared_images/
+
+# Ignore local images
+pictures/
+
+# Firebase credentials
+**/google_firebase_admin.xml
